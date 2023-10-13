@@ -14,19 +14,15 @@
     height: 250px;
   }
 
+  a{
+    text-decoration: none;
+   }
+
   .about {
     width: 700px;
+
   }
   
-  .border {
-    width: auto;
-    display: inline-block;
-    height: 230px;
-    margin: 9px;
-    border: 1px solid grey;
-    padding: 20px;
-  }
-
   p{
     color: gray;
   }
@@ -42,11 +38,16 @@
   }
   
   .about-box {
-    width: 30%;
+     width: 70%; 
+     padding: 15px 10px 0px;
     display: inline-block;
-    height: 250px;
+    /* height: 250px; */
     display: flex;
     justify-self: center;
+    border: 1px solid grey;
+    margin-right: 15px;
+    margin-left: 40px;
+
   }
   
  
